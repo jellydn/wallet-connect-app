@@ -23,7 +23,9 @@ export default function Home() {
           <a href="https://www.rainbowkit.com/">RainbowKit!</a>
         </h1>
         <h3>RainbowKit - The best way to connect a wallet 🌈</h3>
+
         <ConnectButton />
+
         <Image src={"/images/rainbowkit.webp"} width={650} height={320} />
       </main>
     </div>

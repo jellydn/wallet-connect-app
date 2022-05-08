@@ -11,7 +11,13 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const { chains, provider } = configureChains(
-    [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
+    [
+      chain.mainnet,
+      chain.ropsten,
+      chain.rinkeby,
+      chain.polygon,
+      chain.polygonMumbai,
+    ],
     [apiProvider.alchemy(process.env.ALCHEMY_ID), apiProvider.fallback()]
   );
 
