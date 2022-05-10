@@ -39,7 +39,7 @@
     "@types/react": "^18.0.9",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
-    "husky": ">=7.0.4",
+    "husky": ">=8.0.1",
     "lint-staged": ">=12.4.1",
     "prettier": "^2.6.2",
     "sort-package-json": "^1.57.0",
