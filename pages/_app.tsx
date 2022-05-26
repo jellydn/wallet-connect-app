@@ -1,11 +1,8 @@
-import {
-  RainbowKitProvider,
-  apiProvider,
-  configureChains,
-  getDefaultWallets,
-} from "@rainbow-me/rainbowkit";
+import { RainbowKitProvider, getDefaultWallets } from "@rainbow-me/rainbowkit";
 import "@rainbow-me/rainbowkit/styles.css";
-import { WagmiProvider, chain, createClient } from "wagmi";
+import { WagmiConfig, chain, configureChains, createClient } from "wagmi";
+import { alchemyProvider } from "wagmi/providers/alchemy";
+import { publicProvider } from "wagmi/providers/public";
 
 import "../styles/globals.css";
 
@@ -18,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       chain.polygon,
       chain.polygonMumbai,
     ],
-    [apiProvider.alchemy(process.env.ALCHEMY_ID), apiProvider.fallback()]
+    [alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }), publicProvider()]
   );
 
   const { connectors } = getDefaultWallets({
@@ -32,11 +29,11 @@ function MyApp({ Component, pageProps }) {
     provider,
   });
   return (
-    <WagmiProvider client={wagmiClient}>
+    <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
         <Component {...pageProps} />{" "}
       </RainbowKitProvider>
-    </WagmiProvider>
+    </WagmiConfig>
   );
 }
 
