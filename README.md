@@ -5,7 +5,7 @@
 
 > The best way to connect a wallet
 
-### ✨ [Demo](wallect-connect-app.productsway.com)
+### ✨ [Demo](https://wallet-connect-app.productsway.com/)
 
 ## Install
 
