@@ -4635,10 +4635,10 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-wagmi@0.4.8:
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.4.8.tgz#4fadc14d8947952464fdd8b7f2d3079985e14b1d"
-  integrity sha512-hflZRiO48J5TCXQoKSSOFNNQpYziEA228KkpuDVHAr5C/rfB1hfRmkNjaPKQFF/IP65JJmBR1uWR9U9u/T+BKg==
+wagmi@0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.4.9.tgz#1c441beff17fbcaee69dabe41e2b225260b091fa"
+  integrity sha512-jXBKSzxGRXTgrK9kGRPNziRWmPu1QRz5FbANyeeUcEeZ0agAZnObkMJSIJJxrajjO6vldscMaVtrAC9bODArPQ==
   dependencies:
     "@coinbase/wallet-sdk" "^3.2.0"
     "@wagmi/core" "^0.3.7"
