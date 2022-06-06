@@ -5,6 +5,8 @@
 
 > The best way to connect a wallet
 
+[![Blockchain - RainbowKit - The best way to connect a wallet](https://img.youtube.com/vi/ocbUcCMYSVE/0.jpg)](https://www.youtube.com/watch?v=ocbUcCMYSVE)
+
 ### ✨ [Demo](https://wallet-connect-app.productsway.com/)
 
 ## Install
