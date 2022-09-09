@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       chain.polygon,
       chain.polygonMumbai,
     ],
-    [alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }), publicProvider()]
+    [alchemyProvider({ apiKey: process.env.ALCHEMY_ID }), publicProvider()]
   );
 
   const { connectors } = getDefaultWallets({
