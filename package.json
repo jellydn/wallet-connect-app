@@ -36,7 +36,7 @@
     "wagmi": "0.6.8"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "3.3.0",
+    "@trivago/prettier-plugin-sort-imports": "3.3.1",
     "@types/react": "18.0.21",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
