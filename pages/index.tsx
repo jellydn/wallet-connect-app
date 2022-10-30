@@ -31,7 +31,12 @@ export default function Home() {
 
         <ConnectButton />
 
-        <Image src={"/images/rainbowkit.webp"} width={650} height={320} />
+        <Image
+          alt="rainbowkit"
+          src={"/images/rainbowkit.webp"}
+          width={650}
+          height={320}
+        />
       </main>
     </div>
   );
