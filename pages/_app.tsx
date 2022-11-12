@@ -8,13 +8,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const { chains, provider } = configureChains(
-    [
-      chain.mainnet,
-      chain.ropsten,
-      chain.rinkeby,
-      chain.polygon,
-      chain.polygonMumbai,
-    ],
+    [chain.mainnet, chain.polygon, chain.polygonMumbai],
     [alchemyProvider({ apiKey: process.env.ALCHEMY_ID }), publicProvider()]
   );
 
