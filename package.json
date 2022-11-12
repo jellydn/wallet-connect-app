@@ -33,7 +33,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "0.31.2",
-    "wagmi": "0.8.1"
+    "wagmi": "0.8.2"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "3.4.0",
