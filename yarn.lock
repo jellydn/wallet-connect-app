@@ -1328,10 +1328,10 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.41.tgz#fbc95422df654ea64e8428eced96ba6ad555d2bb"
   integrity sha512-W9mfWLHmJhkfAmV+7gDjcHeAWALQtgGT3JErxULl0oz6R6+3ug91I7IErs93eCFhPCZPHBs4QJS7YWEV7A3sxw==
 
-"@wagmi/core@0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.7.2.tgz#cd56b2a6aabc783ea65ded0fab3d8ea46a72fb72"
-  integrity sha512-UKEjGq9379bzAozePC+c0Pl2LT4asNIJ40QW7tE7LS8BkeitOFh0SxO1SkNBe2iBnPVNboRtj/4xoGvZpWbO1A==
+"@wagmi/core@0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.7.3.tgz#e61d582d5968d0b2ec97c8727903b3cb7d5fe847"
+  integrity sha512-gXbIsDR+FfrjBckhu0j9FoJhP5faXqiUpsKP22M9cbN4g1ZDdXsOUCkaWJbcoGicIxTd0oMcsxCyqC4c3ue2AA==
   dependencies:
     abitype "^0.1.8"
     eventemitter3 "^4.0.7"
@@ -5127,16 +5127,16 @@ uuid@^8.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-wagmi@0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.8.2.tgz#212025450d74103df273502491113b69af8643f1"
-  integrity sha512-pCWpkI3HB/Y4Yep5lg46G+cozHQAQpqE9oTowrWSKm1KNxb1I4aedkC4iUXovwIvwN4t4znb3N3iKw4Q+duP2g==
+wagmi@0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.8.3.tgz#01184de1e3dfb3d6ae674060e370425d28c03105"
+  integrity sha512-9LVc+Wn6cV7wdGJtzf0SBXjSnpOZsXAlKMGqzYY9Xbus3z+sTsCRkWONK4hW+DZyf4M6wIU8jIyrK9AgcWunjA==
   dependencies:
     "@coinbase/wallet-sdk" "^3.5.3"
     "@tanstack/query-sync-storage-persister" "^4.14.5"
     "@tanstack/react-query" "^4.14.5"
     "@tanstack/react-query-persist-client" "^4.14.5"
-    "@wagmi/core" "0.7.2"
+    "@wagmi/core" "0.7.3"
     "@walletconnect/ethereum-provider" "^1.8.0"
     abitype "^0.1.7"
     use-sync-external-store "^1.2.0"
