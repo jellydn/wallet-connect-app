@@ -1153,10 +1153,10 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
 
-"@wagmi/core@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.7.3.tgz#e61d582d5968d0b2ec97c8727903b3cb7d5fe847"
-  integrity sha512-gXbIsDR+FfrjBckhu0j9FoJhP5faXqiUpsKP22M9cbN4g1ZDdXsOUCkaWJbcoGicIxTd0oMcsxCyqC4c3ue2AA==
+"@wagmi/core@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.7.4.tgz#cc5201e7dc405a88886b5eddc74ac4e3e2f1c15f"
+  integrity sha512-HhN5p0C9dlU1pWNF54hBEXLn12n5ueUJAxl0eg4YtcTTw/VIg/GSINm0eYkVznFPf4qus9ODA9BGTQ7k79d2gQ==
   dependencies:
     abitype "^0.1.8"
     eventemitter3 "^4.0.7"
@@ -4809,10 +4809,10 @@ typedarray-to-buffer@3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@4.8.4:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
-  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
+typescript@4.9.3:
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.3.tgz#3aea307c1746b8c384435d8ac36b8a2e580d85db"
+  integrity sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
@@ -4887,16 +4887,16 @@ uuid@^8.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-wagmi@0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.8.3.tgz#01184de1e3dfb3d6ae674060e370425d28c03105"
-  integrity sha512-9LVc+Wn6cV7wdGJtzf0SBXjSnpOZsXAlKMGqzYY9Xbus3z+sTsCRkWONK4hW+DZyf4M6wIU8jIyrK9AgcWunjA==
+wagmi@0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.8.4.tgz#6f9f2ba1cb8fc21f6a10c0a4237173fe1000bfc7"
+  integrity sha512-FfObjjUb3SvEb2HsNItenGphZZoESuPntkqtEg2JQo4hCjlvLTVdW90VYv4M2UVTWtx0V0ab79j73BXe5Jny9A==
   dependencies:
     "@coinbase/wallet-sdk" "^3.5.3"
     "@tanstack/query-sync-storage-persister" "^4.14.5"
     "@tanstack/react-query" "^4.14.5"
     "@tanstack/react-query-persist-client" "^4.14.5"
-    "@wagmi/core" "0.7.3"
+    "@wagmi/core" "0.7.4"
     "@walletconnect/ethereum-provider" "^1.8.0"
     abitype "^0.1.7"
     use-sync-external-store "^1.2.0"
