@@ -29,7 +29,7 @@
   "dependencies": {
     "@rainbow-me/rainbowkit": "0.8.0",
     "ethers": "5.7.2",
-    "next": "13.0.3",
+    "next": "13.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "0.31.2",
@@ -39,7 +39,7 @@
     "@trivago/prettier-plugin-sort-imports": "3.4.0",
     "@types/react": "18.0.25",
     "eslint": "8.27.0",
-    "eslint-config-next": "13.0.3",
+    "eslint-config-next": "13.0.4",
     "husky": "8.0.2",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
