@@ -1,6 +1,7 @@
 import { RainbowKitProvider, getDefaultWallets } from "@rainbow-me/rainbowkit";
 import "@rainbow-me/rainbowkit/styles.css";
-import { WagmiConfig, chain, configureChains, createClient } from "wagmi";
+import { WagmiConfig, configureChains, createClient } from "wagmi";
+import { mainnet, polygon, polygonMumbai } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 
@@ -8,7 +9,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const { chains, provider } = configureChains(
-    [chain.mainnet, chain.polygon, chain.polygonMumbai],
+    [mainnet, polygon, polygonMumbai],
     [alchemyProvider({ apiKey: process.env.ALCHEMY_ID }), publicProvider()]
   );
 
