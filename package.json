@@ -33,14 +33,14 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "0.31.3",
-    "wagmi": "0.10.2"
+    "wagmi": "0.10.3"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
     "@types/react": "18.0.26",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "prettier": "2.8.1",
     "sort-package-json": "2.1.0",
