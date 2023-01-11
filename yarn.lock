@@ -1278,16 +1278,16 @@
     abitype "^0.1.8"
     eventemitter3 "^4.0.7"
 
-"@wagmi/core@0.8.13":
-  version "0.8.13"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.8.13.tgz#5bc61053cf7dcf24c3b971ab976d6ef76d8b4539"
-  integrity sha512-9nbQvG34MwxCLki/wFg+5g4D2wQgHmdVsUHtdGlTYk1sjK87r1ygJ4nIBBq/upFmypGZQ5I83QvB9hNglAqICQ==
+"@wagmi/core@0.8.14":
+  version "0.8.14"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.8.14.tgz#2ec9a922bce4093efd9d2497f9c6cc3ac458500f"
+  integrity sha512-zhBaC8NJoEvzEY65CEXQWuqzsarKbi/dN/IAnYav57H1jU8de3/Ou2qb1Efilc3QG1yEuoCScgvf4o1Vjhe6VA==
   dependencies:
     "@wagmi/chains" "0.1.9"
     "@wagmi/connectors" "0.1.7"
     abitype "^0.2.5"
     eventemitter3 "^4.0.7"
-    zustand "^4.1.4"
+    zustand "^4.3.1"
 
 "@walletconnect/browser-utils@^1.8.0":
   version "1.8.0"
@@ -5473,16 +5473,16 @@ uuid@^8.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-wagmi@0.10.8:
-  version "0.10.8"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.10.8.tgz#9e5b93b88e713f139424ad7c99b7cdd355b7fca2"
-  integrity sha512-q3iI6zIFkWdRy2wZeTyXodp2Kpkc8o5ajUW1/K6mru1SK8G6NKvMbk8Dimvn6Iattnsh3e9PnUlxAiO8gW8KzA==
+wagmi@0.10.10:
+  version "0.10.10"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.10.10.tgz#30e6eff3e1f045f97478a293e0cfdefda8cc35f9"
+  integrity sha512-YChCEVXA+AMYdP0p4ds05CBGpM/jEiecCknoGsubq80qjv8M/qg658xbtLOSSpmt190mmkAzut0s2jZ2Hp615w==
   dependencies:
     "@coinbase/wallet-sdk" "^3.6.0"
     "@tanstack/query-sync-storage-persister" "^4.14.5"
     "@tanstack/react-query" "^4.14.5"
     "@tanstack/react-query-persist-client" "^4.14.5"
-    "@wagmi/core" "0.8.13"
+    "@wagmi/core" "0.8.14"
     "@walletconnect/ethereum-provider" "^1.8.0"
     abitype "^0.2.5"
     use-sync-external-store "^1.2.0"
@@ -5671,9 +5671,9 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zustand@^4.1.4:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.2.0.tgz#f6ef9e63794eda9b296979578538a6df6be3e1b0"
-  integrity sha512-eNwaDoD2FYVnMgtNxiMUhTJO780wonZUzJrPQTLYI0erSIMZF8cniWFW22kGQUECd8rdHRJ/ZJL2XO54c9Ttuw==
+zustand@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.3.1.tgz#76c47ef713c43763953f7a9e518f89efd898e3bb"
+  integrity sha512-EVyo/eLlOTcJm/X5M00rwtbYFXwRVTaRteSvhtbTZUCQFJkNfIyHPiJ6Ke68MSWzcKHpPzvqNH4gC2ZS/sbNqw==
   dependencies:
     use-sync-external-store "1.2.0"
