@@ -27,13 +27,13 @@
     "semi": true
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "0.12.1",
+    "@rainbow-me/rainbowkit": "0.12.2",
     "ethers": "5.7.2",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "0.31.3",
-    "wagmi": "0.12.2"
+    "wagmi": "0.12.3"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.1.1",
@@ -42,7 +42,7 @@
     "eslint-config-next": "13.2.4",
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
-    "prettier": "2.8.5",
+    "prettier": "2.8.6",
     "sort-package-json": "2.4.1",
     "typescript": "4.9.5"
   }
