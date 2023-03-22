@@ -1319,10 +1319,10 @@
   resolved "https://registry.yarnpkg.com/@wagmi/chains/-/chains-0.2.14.tgz#fff331e1f160848ba730b319b39023df8c1e52ee"
   integrity sha512-esWhs1sf8/J/u+54F/sUQ97iZ/zUN2rYUrLYOD35ynIJn9ZwGXeV/tkiXx/6xXDmq0VK5oe1Pe7BU/pvaURzcA==
 
-"@wagmi/connectors@0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@wagmi/connectors/-/connectors-0.3.6.tgz#7d34cce7644bc0f57dd0ee867b99baa4aeb98b12"
-  integrity sha512-YuO+vNFK5ks8YecOhkJ9aEwGX6a536T7A/ADZu22KFdufSAlXWGPwQNOdw/hh9z51v26X4evf8X2V3OPEp0aeA==
+"@wagmi/connectors@0.3.8":
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@wagmi/connectors/-/connectors-0.3.8.tgz#cc5b5815540eed0b6aed31d5c59c3c87b21d0871"
+  integrity sha512-SLukavwDqFiMO+GmAdxdEXKnAbNcBcOUtVu6QjhOPzmcETA59f2QWleUPDBZx62SE40HAiA/Z53exAiWUqIelA==
   dependencies:
     "@coinbase/wallet-sdk" "^3.5.4"
     "@ledgerhq/connect-kit-loader" "^1.0.1"
@@ -1334,13 +1334,13 @@
     abitype "^0.3.0"
     eventemitter3 "^4.0.7"
 
-"@wagmi/core@0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.10.3.tgz#891b5cd7dc854354270a83d06d724f06bfe88a81"
-  integrity sha512-dqjK4baOYn62Pr25Q3M4BoY4WLmbw4vJOsA+kLckZ4qPjUfdWp4nuPg1qlgqEwNNfay+eztx7J6QO9kRD2qNHg==
+"@wagmi/core@0.10.6":
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.10.6.tgz#02a071d400d7b21d9ed5b72d305ac54b58abd683"
+  integrity sha512-dtQo3pARUKPsU3+K60ojkYVPpGX12T+dgfbNwYLASpXhwwk5hElhP7YBm/9tMYk4ZIup+yQetTAmoa8/+JW2ng==
   dependencies:
     "@wagmi/chains" "0.2.14"
-    "@wagmi/connectors" "0.3.6"
+    "@wagmi/connectors" "0.3.8"
     abitype "^0.3.0"
     eventemitter3 "^4.0.7"
     zustand "^4.3.1"
@@ -5518,15 +5518,15 @@ valtio@1.10.3:
     proxy-compare "2.5.0"
     use-sync-external-store "1.2.0"
 
-wagmi@0.12.3:
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.12.3.tgz#8961e68c84a526ba23b450db4d89bfbbe588f795"
-  integrity sha512-TR7H9hr7NEGbgljT7u6MI8dCdFVoXS4f8mIqSWs8ahm/fQ1oAfkSizlzEuI1aax0vliOz8hD818OaNR848RhdQ==
+wagmi@0.12.6:
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.12.6.tgz#3ad79104ce37d0a690c209af407a275b26bc3515"
+  integrity sha512-IxU+m/AWPpCvFzXuT93hWNcB1n28HFF7V7fziAgidGKdnha/R4juNk2nuzvEx4+8WLepTEWwbZyT9XMKJYMJ7w==
   dependencies:
     "@tanstack/query-sync-storage-persister" "^4.14.5"
     "@tanstack/react-query" "^4.14.5"
     "@tanstack/react-query-persist-client" "^4.14.5"
-    "@wagmi/core" "0.10.3"
+    "@wagmi/core" "0.10.6"
     abitype "^0.3.0"
     use-sync-external-store "^1.2.0"
 
