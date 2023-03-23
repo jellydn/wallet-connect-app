@@ -899,10 +899,10 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@rainbow-me/rainbowkit@0.12.2":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@rainbow-me/rainbowkit/-/rainbowkit-0.12.2.tgz#efcd807b1ddc34bd7ac9639149e73bf5847ae973"
-  integrity sha512-EU1ac5gR9vQBFlMgxuLXRNNsXm1ieuQDAUKbMx0PN0gEd6BEJUr2tQgmTjbPSwNXnGTLZkMewMRfGmgLU4dmIQ==
+"@rainbow-me/rainbowkit@0.12.3":
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@rainbow-me/rainbowkit/-/rainbowkit-0.12.3.tgz#98076f284417ad85d0f270d71b0eb6bf29533a2d"
+  integrity sha512-QI+AN/QQd7mTtgdvHl0To0IGnj4gg47cJ1BsPlKfg5I7phacIpl2Rb0nOYDU7SVNg2KeRFO/q1HERX0lN+ulNQ==
   dependencies:
     "@vanilla-extract/css" "1.9.1"
     "@vanilla-extract/dynamic" "2.0.2"
