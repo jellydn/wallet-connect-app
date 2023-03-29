@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.1.1",
-    "@types/react": "18.0.30",
-    "eslint": "8.36.0",
+    "@types/react": "18.0.31",
+    "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
