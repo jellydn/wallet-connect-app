@@ -1314,10 +1314,10 @@
   resolved "https://registry.yarnpkg.com/@vanilla-extract/sprinkles/-/sprinkles-1.5.0.tgz#c921183ae518bb484299c2dc81f2acefd91c3dbe"
   integrity sha512-W58f2Rzz5lLmk0jbhgStVlZl5wEiPB1Ur3fRvUaBM+MrifZ3qskmFq/CiH//fEYeG5Dh9vF1qRviMMH46cX9Nw==
 
-"@wagmi/chains@0.2.14":
-  version "0.2.14"
-  resolved "https://registry.yarnpkg.com/@wagmi/chains/-/chains-0.2.14.tgz#fff331e1f160848ba730b319b39023df8c1e52ee"
-  integrity sha512-esWhs1sf8/J/u+54F/sUQ97iZ/zUN2rYUrLYOD35ynIJn9ZwGXeV/tkiXx/6xXDmq0VK5oe1Pe7BU/pvaURzcA==
+"@wagmi/chains@0.2.15":
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/@wagmi/chains/-/chains-0.2.15.tgz#77bd1cece0c32a795df2122cbc0564c82b63f855"
+  integrity sha512-yeNamxRmqq1/PirJqCpKHSJcetZ9ivZdJnCIvNvJifpCz1A2dLlD1+NON11saiyShH7tshS5Eaf0pm9Luna8JQ==
 
 "@wagmi/connectors@0.3.10":
   version "0.3.10"
@@ -1334,12 +1334,12 @@
     abitype "^0.3.0"
     eventemitter3 "^4.0.7"
 
-"@wagmi/core@0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.10.7.tgz#13f21d97d42517ac258eb0639d97df4a183f7455"
-  integrity sha512-D12tGHPzrJPuYoknTZ8DQHpK1AqosbdSNmFXX7EOPKsSfH139PPiLU4L1ZhcS8WprnPDczOT2AN9JNvzYqjyOw==
+"@wagmi/core@0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.10.8.tgz#34dbde5c539348d530da3a0353a21cbf252a058f"
+  integrity sha512-lBhA7TM6leaYyh7QXWFtmdXX+tTe88MtZmCclBVrT71z9tnX/JxXntEB7aGiHIWFyBNjzgWjBNrBAjxYgxhaCA==
   dependencies:
-    "@wagmi/chains" "0.2.14"
+    "@wagmi/chains" "0.2.15"
     "@wagmi/connectors" "0.3.10"
     abitype "^0.3.0"
     eventemitter3 "^4.0.7"
@@ -5524,15 +5524,15 @@ valtio@1.10.3:
     proxy-compare "2.5.0"
     use-sync-external-store "1.2.0"
 
-wagmi@0.12.7:
-  version "0.12.7"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.12.7.tgz#f2a7fe03e8de2cd5e6d381728fad3f45413f04b2"
-  integrity sha512-L1yE+6KVeUNWKLMr2VXTB3bYHYJhC9kjt7HeAo1o4r4P6ZRJiTD7haTP+Lwzd4EqHCsyN4Zzfnb3Eh6RdcVwvA==
+wagmi@0.12.8:
+  version "0.12.8"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.12.8.tgz#b0c8b50ccb0cc6b8807288c400f4f79f9b76e470"
+  integrity sha512-llLlk6rl9MOqE1HgFtDBSJlUetmAD6WR68EvvGTZYXmw1lu9vHPcfoNHAB9pq/i7S3jTDLyv+Z+NGGoyryVS6w==
   dependencies:
     "@tanstack/query-sync-storage-persister" "^4.14.5"
     "@tanstack/react-query" "^4.14.5"
     "@tanstack/react-query-persist-client" "^4.14.5"
-    "@wagmi/core" "0.10.7"
+    "@wagmi/core" "0.10.8"
     abitype "^0.3.0"
     use-sync-external-store "^1.2.0"
 
