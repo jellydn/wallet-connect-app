@@ -27,7 +27,7 @@
     "semi": true
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "0.12.6",
+    "@rainbow-me/rainbowkit": "0.12.7",
     "ethers": "5.7.2",
     "next": "13.2.4",
     "react": "18.2.0",
