@@ -40,7 +40,7 @@
     "@types/react": "18.0.37",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
-    "husky": "8.0.3",
+    "husky": "9.1.7",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
     "sort-package-json": "2.4.1",
