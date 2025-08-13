@@ -32,7 +32,7 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sharp": "0.32.0",
+    "sharp": "0.32.6",
     "wagmi": "0.12.12"
   },
   "devDependencies": {
